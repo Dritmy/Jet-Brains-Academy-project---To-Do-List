@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.input-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#add-task-button {
+    color: black;
+    background-color: palegreen;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#input-task {
+    width: 400px;
+}
+
+#task-list {
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: left;
+
+}
+
+.delete-btn {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    position: relative;
+
+
+}
+
+li {
+    display: flex;
+    justify-content: left;
+    margin-left: 470px;
+    width: 500px;
+
+}
+
+.check {
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.task {
+flex-grow: 1;
+}
+
