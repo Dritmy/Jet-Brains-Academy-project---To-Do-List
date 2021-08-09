@@ -9,8 +9,7 @@ if (taskList.length != 0) {
     refresh();
 }
 
-
-//upgrade page
+//refresh page
 function refresh () {
     for (let i = 0; i < taskList.length; i++) {
         //create checkbox
@@ -23,7 +22,6 @@ function refresh () {
 
         //create li element
         const myLi = document.createElement("li");
-
         list.appendChild(myLi);
         myLi.appendChild(myCheck);
 
@@ -41,18 +39,15 @@ function refresh () {
         myBtn.className = "delete-btn";
         myBtn.innerHTML = "&#10006";
         myLi.appendChild(myBtn);
-
         console.log("Complete refresh");
 
     }
 }
 
-
 function Task (description) {
     this.description = description;
     this.completed = false;
 }
-
 
 //add task
 addBtn.onclick = function () {
@@ -70,7 +65,6 @@ addBtn.onclick = function () {
 
         //create li element
         const myLi = document.createElement("li");
-
         list.appendChild(myLi);
         myLi.appendChild(myCheck);
 
@@ -96,10 +90,6 @@ addBtn.onclick = function () {
         check = document.querySelectorAll(".check");
         span = document.querySelectorAll(".task");
         checkboxChange();
-
-
-
-
     }
 }
 
@@ -144,4 +134,3 @@ checkboxChange();
 const updateLocal = () => {
   localStorage.setItem("tasks", JSON.stringify(taskList));
 }
-
