@@ -23,7 +23,6 @@ body {
     margin-top: 50px;
     font-size: 1.5em;
     text-align: left;
-
 }
 
 .delete-btn {
@@ -35,8 +34,6 @@ body {
     color: white;
     text-align: center;
     position: relative;
-
-
 }
 
 li {
@@ -44,7 +41,6 @@ li {
     justify-content: left;
     margin-left: 470px;
     width: 500px;
-
 }
 
 .check {
@@ -55,4 +51,3 @@ li {
 .task {
 flex-grow: 1;
 }
-
